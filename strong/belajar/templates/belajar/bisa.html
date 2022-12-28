@@ -1,0 +1,11 @@
+{% extends 'bisa.html' %}
+
+{% block PROFIL_IMABA %}
+
+  {% for bisa in managemen %}
+
+    <li>{{ bisa.organisasi }}</li>
+    
+  {% endfor %}
+
+{% endblock %}
